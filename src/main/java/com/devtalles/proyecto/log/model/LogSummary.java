@@ -20,10 +20,10 @@ public class LogSummary {
 
     @Override
     public String toString() {
-        return  "totalEntries=" + totalEntries +
-                "errorCount=" + errorCount +
-                "uniqueUsers=" + uniqueUsers +
-                "averageResponseTime=" + averageResponseTime +
-                "errorCountByCode=" + errorCountByCode;
+        return  "totalEntries= " + totalEntries + "\n" +
+                "errorCount= " + errorCount + "\n" +
+                "uniqueUsers= " + uniqueUsers + "\n" +
+                "averageResponseTime= " + averageResponseTime + "\n" +
+                "errorCountByCode= " + errorCountByCode;
     }
 }
